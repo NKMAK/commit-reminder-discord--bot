@@ -1,8 +1,8 @@
 # GitHub API Token (requires read:user scope)
 GITHUB_TOKEN=ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-# GitHub usernames to monitor (JSON array format)
-GITHUB_USERNAMES=["user1","user2","user3"]
+# Users to monitor (JSON array with github username and discord user ID)
+USERS=[{"github":"user1","discord":"123456789012345678"},{"github":"user2","discord":"234567890123456789"}]
 
 # Discord Webhook URL
 DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/xxxxx/yyyyy

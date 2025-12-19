@@ -1,7 +1,12 @@
-export interface Env {
+export type User = {
+  github: string;
+  discord: string;
+};
+
+export type Env = {
   GITHUB_TOKEN: string;
-  GITHUB_USERNAMES: string;
+  USERS: string;
   DISCORD_WEBHOOK_URL: string;
   API_KEY: string;
   CRON_HOUR: string;
-}
+};
